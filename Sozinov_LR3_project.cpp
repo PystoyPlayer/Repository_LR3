@@ -28,7 +28,9 @@ void IntSumPart(double x, double y, double z) {
 }
 
 void FracGeomAvg(double x, double y, double z) {
-    // Найти дробную часть среднего геометрического модулей этих 3-х чисел
+    double geom_avg = cbrt(abs(x) * abs(y) * abs(z));
+    cout << "Дробная часть среднего геометрического модулей: " 
+         << geom_avg - int(geom_avg) << endl;
 }
 
 int main() {
