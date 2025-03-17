@@ -3,7 +3,10 @@
 using namespace std;
 
 double EnterX() {
-    // Ввод вещественного числа x
+    double x;
+    cout << "Введите число x: ";
+    cin >> x;
+    return x;
 }
 
 double EnterY() {
