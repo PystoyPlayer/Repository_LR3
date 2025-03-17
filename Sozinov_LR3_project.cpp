@@ -17,7 +17,10 @@ double EnterY() {
 }
 
 double EnterZ() {
-    // Ввод вещественного числа z
+    double z;
+    cout << "Введите число z: ";
+    cin >> z;
+    return z;
 }
 
 void IntSumPart(double x, double y, double z) {
