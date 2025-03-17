@@ -10,7 +10,10 @@ double EnterX() {
 }
 
 double EnterY() {
-    // Ввод вещественного числа y
+    double y;
+    cout << "Введите число y: ";
+    cin >> y;
+    return y;
 }
 
 double EnterZ() {
