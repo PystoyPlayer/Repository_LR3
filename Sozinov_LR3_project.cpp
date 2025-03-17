@@ -24,7 +24,7 @@ double EnterZ() {
 }
 
 void IntSumPart(double x, double y, double z) {
-    // Найти целую часть суммы этих 3-х чисел
+    cout << "Целая часть суммы чисел: " << int(x + y + z) << endl;
 }
 
 void FracGeomAvg(double x, double y, double z) {
